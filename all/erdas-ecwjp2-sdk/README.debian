@@ -1,0 +1,9 @@
+Download the required upstream dependencies:
+
+  https://download.hexagongeospatial.com/search?keyword=sdk&lang=en
+
+Build the Debian package:
+
+  tar -xaf erdas-ecwjp2-sdk_*.debian.txz
+  ERDAS_ECWJP2_SDK_ZIP=/path/to/erdas-ecwjp2-sdk-linux.zip \
+    make -f debian/rules debian-build

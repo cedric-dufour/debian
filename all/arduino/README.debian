@@ -1,0 +1,4 @@
+To download the required upstream dependencies and build the Debian package:
+
+  tar -xaf arduino_*.debian.txz
+  make -f debian/rules debian-build
